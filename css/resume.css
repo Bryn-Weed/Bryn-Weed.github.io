@@ -113,6 +113,60 @@ span.about{
   font-weight: bold;
 }
 
+.read-more-state{
+display: none;}
+
+.read-more-target{
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  display: none;
+  transition: .25s ease;
+}
+
+
+.read-more-state:checked ~ .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  height: auto;
+  max-height: 999em;
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+.read-more-trigger {
+  background-color: #E8E8E8;
+  color: #2D2C34;
+  border: 2px solid #2D2C34;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  transition: .5s;
+  cursor: pointer;
+  display: block;
+  margin-top: 5px;
+  width: auto;
+  display: table;
+
+}
+
+.read-more-trigger:hover {
+  background-color: #2D2C34;
+  color: #E8E8E8;
+
+}
+
+.read-more-state ~ .read-more-trigger:before{
+  content: 'More skills';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before{
+  content: 'Less skills';
+
+}
+
 .my-auto{
   position: relative;
 }
@@ -201,6 +255,8 @@ h2.mb-5 {
     display: block;
   }
 }
+
+
 
 section.resume-section {
   padding-top: 5rem !important;
