@@ -117,21 +117,15 @@ span.about{
 display: none;}
 
 .read-more-target{
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  display: none;
+  display: block;
+  height: 0px;
+  overflow: hidden;
   transition: .25s ease;
 }
 
 
 .read-more-state:checked ~ .read-more-target {
-  opacity: 1;
-  font-size: inherit;
-  height: auto;
-  max-height: 999em;
-  margin-bottom: 10px;
-  display: block;
+  height: 200px;
 }
 
 
@@ -171,11 +165,23 @@ display: none;}
   position: relative;
 }
 
+.col-sm-3 {
+  margin-bottom: 35px !important;
+}
+
 a.pill-box {
-  padding: 7px 10px 7px 10px;
-  border: 2px solid #2d2c34;
-  color: #2d2c34;
-  border-radius: 28px;
+  background-color: #E8E8E8;
+  color: #2D2C34;
+  border: 2px solid #2D2C34;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  transition: .5s;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 5px;
+  width: auto;
 }
 
 #sideNav .navbar-brand .img-profile:hover{
@@ -186,8 +192,8 @@ a.pill-box {
 }
 
 .pill-box:hover{
-  border-color: #71C09D;
-  color: #71C09D;
+  background-color: #2D2C34;
+  color: #E8E8E8;
 }
 
 h2.mb-5 {
@@ -274,6 +280,13 @@ section.resume-section .resume-item .resume-date {
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1080px){
+  .col-sm-3 {
+    width: 65% !important;
+    max-width: 50% !important;
   }
 }
 
