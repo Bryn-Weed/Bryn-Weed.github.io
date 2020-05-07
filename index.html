@@ -1,307 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Bryn Weed</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/resume.css?v=3" rel="stylesheet">
-    <link href="css/resume.min.css?v=3" rel="stylesheet">
-
-  </head>
-
-  <body id="page-top">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Bryn Weed</span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.PNG" alt="">
-        </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <!--<li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>-->
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#work">My Work</a>
-          </li>
-        </ul>
-      </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Portfolio and designs of Bryn Weed, freelance website designer, developer and software engineer.">
+  <link rel="stylesheet"  type="text/css" href="style.css">
+  <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <title>Bryn Weed - Web Designer</title>
+</head>
+<body>
+  <header class="header align-center">
+    <a href="index.html" class="header-icon" title="home"><i class="fas fa-bold"></i></a>
+    <nav role="navigation" class="nav-bar">
+      <ul class="d-none header-nav">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
+    <button class="md-none mobile-menu-btn" id="menu-open" aria-label="Menu"><i class="fas fa-bars"></i></button>
+  </header>
+  <div class="mobile-menu" id="mobile-overlay" style="display:none;">
+    <div class="mobile-menu-header align-center">
+      <a href="index.html" class="header-icon white" title="home"><i class="fas fa-bold"></i></a>
+      <button class="mobile-menu-close white" id="menu-close" aria-label="Close Menu"><i class="fas fa-times"></i></button>
+    </div>
+    <nav role="navigation">
+      <ul class="mobile-menu-nav white" id="mobile-menu-ul">
+        <li><a id="mobile-nav" href="#services">Services</a></li>
+        <li><a id="mobile-nav"  href="#work">Work</a></li>
+        <li><a id="mobile-nav"  href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 
-    <div class="container-fluid p-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h1 class="mb-0"><i class="fa fa fa-genderless" style="left: -80px;"></i>Hi, I'm
-            <span class="name">&nbsp;BRYN&nbsp;</span>
-          </h1>
-          <div class="subheading mb-5"><span class="about">Weed</span>ing out the applicants? I'm what you've <span class="about">Bryn</span> looking for.
-          </div>
-      <!--  <p class="lead mb-5" style="margin-bottom: 10px !important;">Web Designer and Developer</p> -->
-
-          <p class="lead mb-5">Combining a passion for design with experience in development.</p>
-          <p class="lead mb-5">
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/brynweed/">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/Bryn-Weed">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.facebook.com/bryn.weed">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-          </div><br />
-          <div class="subheading mb-4">07968474746 ·
-            <a href="mailto:brynweed@gmail.com">brynweed@gmail.com</a><br />
-            Wellingborough · Northamptonshire
-          </div>
+  <div class="jumbotron">
+    <div class="intro">
+      <h1>Hi, I'm Bryn.</h1>
+      <a href="#services" class="header-link"><h3>⟶ Let's make a website</h3></a>
+    </div>
+    <div class="img-container" data-aos="fade-up" data-aos-duration="3000" data-aos-offset="300">
+      <div class="image-stack">
+        <div class="image-stack__item image-stack__item--top">
+          <img src="phone.jpg" alt="">
         </div>
-      </section>
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5"><i class="fa fa fa-genderless"></i>Experience</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Developer</h3>
-              <div class="subheading mb-3">Socitm</div>
-              <p>In-house developer utilizing HTML5, CSS3, Python, JavaScript(& jQuery), PHP, Wordpress, MySQL and the Goldvision DB API.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">December 2018 - June 2019</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Developer</h3>
-              <div class="subheading mb-3">Canine Adventures</div>
-              <p>Using HTML, CSS, JavaScript, jQuery, PHP, Ajax, and the Bootstrap framework, this experience saw the completion of a full e-commerce and booking website for Canine Adventures. </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">October 2017 - May 2018</span>
-            </div>
-          </div>
-
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Crimsonwing Business Challenge</h3>
-              <div class="subheading mb-3">KPMG Crimsonwing</div>
-              <p>Analysis of simulated client's issue brief and presentation of problem solving techniques utilising Microsoft Dynamics 365.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">February 2017 & March 2018</span>
-            </div>
-          </div>
-
+        <div class="image-stack__item image-stack__item--bottom">
+          <img src="mac.jpg" alt="">
         </div>
+      </div>
+    </div>
+  </div>
 
-      </section>
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
-          <h2 class="mb-5">  <i class="fa fa fa-genderless"></i>Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">The University of Northampton</h3>
-              <div class="subheading mb-3">Bachelor of Science (BSc) in Computing (Software Engineering)</div>
-              <p>Result: First-class with Honours</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">October 2015 - August 2018</span>
-            </div>
-          </div>
-
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Tresham College </h3>
-              <div class="subheading mb-3">Level 3 BTEC Subsidiary Diploma - Computer Science</div>
-              <p>Result: Distinction***</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2013 - July 2015</span>
-            </div>
-          </div>
-
+  <div class="service-container section" id="services">
+    <div class="left-panel">
+      <h1 class="white" style="font-size: 3.5rem; display: inline-block">Services</h1>
+    </div>
+    <div class="right-panel">
+      <div class="row">
+        <div class="column">
+          <h2 class="white">Website Design</h2>
+          <p>Visually appealing sites with tailored solutions to fit not only your customers needs, but yours as well.</p>
         </div>
-      </section>
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5"><i class="fa fa fa-genderless"></i>Skills</h2>
-
-          <input type="checkbox" class="read-more-state" id="skills-toggle"/>
-
-          <h3>Tricks of the Trade</h3>
-            <div class="subheading mb-3">Currently using:</div>
-            <p>
-              <strong>Languages:</strong><br />
-              HTML5, CSS3, PHP, jQuery, JavaScript, SQL, C++, Java, Ajax, Cypher QL
-              <br />
-              <strong>Servers:</strong><br />
-              Flask, WAMP64, Vagrant, AWS
-              <br />
-              <strong>Tools:</strong><br />
-              Wordpress, Goldvision API, MySQL Workbench, Neo4j, Oracle 12c, JavaFX, Matlabs,<br /> Wix, Adobe Illustrator, AWS(EC2, S3, EB, R53), Adobe InDesign, Adobe After Effects
-              <br />
-            </p>
-          </span>
-
-
-          <h3>Workflow</h3>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              UX/UI Focused</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Design Orientated</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile &amp; Waterfall Development</li>
-          </ul>
+        <div class="column">
+          <h2 class="white">Back-end Development</h2>
+          <p>Converting business practices to the digital world, automating processes and removing the need for paperwork.</p>
         </div>
-      </section>
-
-      <hr class="m-0">
-
-    <!--  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <div class="my-auto">
-          <h2 class="mb-5"><i class="fa fa fa-genderless"></i>Interests</h2>
-          <p>After working with a couple of talented designers (<strong><a style="color: #74b88f" href="https://www.linkedin.com/in/christopher-doyle-b8559596/">Chris</a></strong> and <strong><a style="color: #74b88f" href="https://www.linkedin.com/in/magdalenawerner/">Magda</a></strong>), I've recently developed an interest in design beyond the typical web development scope. I'm currently investigating the world of SVGs, while also looking into the techniques used to create graphical artwork that I may soon be able to implement in my own work.</p>
-          <p>I believe that there can be beauty in simplicity; you don't need to have a lot going on in a site for it to look good, and sometimes less is better. I'm interested in creating aesthetically pleasing websites that are easy to navigate, and provide all the right information in a functional, appealing way.</p>
-          <p>I love to travel - I had an amazing time visiting Gatlinburg, Tennesee last year, and I hope to return there soon.</p>
-          <p class="mb-0">Other than that I'm just your typical pixel-pushing geek. I like movies, TV, and games.</p>
+        <div class="column">
+          <h2 class="white">Search Engine Optimization</h2>
+          <p>Bringing you new customers by ensuring that your website is always at the top of the list.</p>
         </div>
-      </section>
-
-      <hr class="m-0"> -->
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-        <div class="my-auto">
-          <h2 class="mb-5"><i class="fa fa fa-genderless"></i>Awards &amp; Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              2nd Place with Personal Award - KPMG Crimsonwing - Business Challenge Event 2017</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1st Place with Personal Award - KPMG Crimsonwing - Business Challenge Event 2018</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              2nd Place - Barclaycard - Barclaycard Best Business-Related Dissertation 2018</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              2nd Place - Barclaycard - Barclaycard Technology Challenge Event 2018</li>
-              <li>
-                <i class="fa-li fa fa-trophy text-warning"></i>
-              Bronze - University of Northampton - Employability Plus Certification</li>
-          </ul>
+        <div class="column">
+          <h2 class="white">User Experience</h2>
+          <p>Designed with both form and function in mind, reaching the right audience for you.</p>
         </div>
-      </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-row" id="work">
-        <div class="my-auto">
-          <h2 class="mb-5"><i class="fa fa fa-genderless"></i>Some of My Work</h2>
-
-        <div class="row">
-          <div class="col-sm-3">
-            <a href="https://bryn-weed.github.io/ca/"><u><h3 class="mb-0">Canine Adventures</h3></u>
-              <img src="img/ca.PNG" style="width: 250px; height: 150px; margin-top: 10px;">
-            </a>
-              <p>A booking and management system for local dog walkers.</p>
-              <a class="pill-box" href="https://github.com/Bryn-Weed/dissertation">View repository</a>
-          </div>
-
-          <div class="col-sm-3">
-            <a href="https://bryn-weed.github.io/wv/"><u><h3 class="mb-0">West Virginia Guide</h3></u>
-              <img src="img/wv.PNG" style="width: 250px; height: 150px; margin-top: 10px;">
-            </a>
-              <p>A guide for tourism in the state of West Virginia.</p>
-              <a class="pill-box" href="https://bryn-weed.github.io/wv/">View live</a>
-          </div>
-
-          <div class="col-sm-3">
-              <a href="https://socitm.net"><u><h3 class="mb-0">Socitm</h3></u>
-                <img src="img/socitm.PNG" style="width: 250px; height: 150px; margin-top: 10px;">
-              </a>
-                <p>Website and dashboard for public services in the UK.</p>
-                <a class="pill-box" href="https://socitm.net">View live</a>
-          </div>
-
-          <div class="col-sm-3">
-            <a href="https://bryn-weed.github.io/grid/"><u><h3 class="mb-0">Design</h3></u>
-              <img src="img/grid.PNG" style="width: 250px; height: 150px; margin-top: 10px;">
-            </a>
-              <p>Playground for testing different formatting techniques.</p>
-              <a class="pill-box" href="https://bryn-weed.github.io/grid/">View live</a>
-          </div>
-
+        <div class="column">
+          <h2 class="white">Illustration</h2>
+          <p>Enhancing brand identity through graphic design. Custom icons, leaflets, banners and more.</p>
         </div>
-
+        <div class="column">
+          <h2 class="white">Maintenance</h2>
+          <p>Ongoing support to keep your website safe and stable. Preventing your site from going down, and stopping any unwanted visitors.</p>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
 
+  <div class="work-container section" id="work">
+    <h1 style="font-size: 3.5rem; display: block; margin-bottom: 85px;">Projects made personal.</h1>
+    <div class="left-panel half">
+    <h2 style="font-size: 2.5rem; font-weight: 100; margin-bottom: 60px;">Requirements</h2>
+    <p style="font-size: 1.3em; color: #5D5D5D">Every business is unique. Some want a static website to serve as an advertisement; others could use a dynamic site where they can change the images, text and prices of products themselves.
+      I can sculpt the right solution for you, on a platform that will suit your creative needs.
+    </p>
+    </div>
+    <div class="right-panel half" style="display: inline-block;">
+      <h2 style="font-size: 2.5rem; font-weight: 100; margin-bottom: 60px;">Platforms</h2>
+      <ul class="platforms">
+        <li><i class="fas fa-code blue" style="font-size: 1.4rem; vertical-align: middle;"></i> &nbsp; Coded solutions</li>
+        <li><a href="https://www.wix.com/"><i class="fab fa-wix blue" style="font-size: 1.4rem; vertical-align: middle;"></i></a>  &nbsp; Wix</li>
+        <li><a href="https://wordpress.com/"><i class="fab fa-wordpress blue" style="font-size: 1.4rem; vertical-align: middle;"></i></a> &nbsp; Wordpress</li>
+        <li><a href="https://www.squarespace.com/"><i class="fab fa-squarespace blue" style="font-size: 1.4rem; vertical-align: middle;"></i></a> &nbsp; Squarespace</li>
+      </ul>
+      Need something different? <a href="#contact" class="blue" style="text-decoration: none">⟶ Let me know.</a>
+    </div>
+  </div>
+
+  <div class="examples-container section desktop">
+    <div class="row-img" style="">
+      <div class="column-img"  data-aos="fade-right" data-aos-duration="3000">
+        <a href="https://socitm.net/improve/"><img src="improvedesk.jpg"></img></a>
+      </div>
+      <div class="column-img">
+        <h2 class="white" style="padding:15px;">Socitm Improve</h2>
+        <p>A new website creation while working for Socitm using HTML, CSS, JavaScript and jQuery.</p>
+      </div>
+      <div class="column-img">
+        <h2 class="white" style="padding:15px">D E S I G N</h2>
+        <p>A personal project showcasing some design techniques and new CSS functionality.</p>
+      </div>
+      <div class="column-img"  data-aos="fade-left" data-aos-duration="3000">
+        <a href="https://bryn-weed.github.io/grid/"><img src="designdesk.jpg"></img></a>
+      </div>
+      <div class="column-img"  data-aos="fade-right" data-aos-duration="3000">
+        <a href="http://canine-adventures.co.uk/"><img src="ca.jpg"></img></a>
+      </div>
+      <div class="column-img">
+        <h2 class="white" style="padding:15px;">Canine Adventures</h2>
+        <p>Commercial website and web application using HTML, CSS, JavaScript, jQuery, Ajax, PHP, and the Barclaycard payment API.</p>
+      </div>
+      <div class="column-img">
+        <h2 class="white" style="padding: 15px;">Wild & Wonderful WV</h2>
+        <p>Tourism guide for West Virginia including SVG work for custom page break designs.</p>
+      </div>
+      <div class="column-img" data-aos="fade-left" data-aos-duration="3000">
+        <a href="https://bryn-weed.github.io/wv/"><img src="wv.jpg"></img></a>
+      </div>
+      <div class="column-img"  data-aos="fade-right" data-aos-duration="3000">
+        <a href="https://www.performancefiberglassllc.com/"><img src="pf.jpg"></img></a>
+      </div>
+      <div class="column-img">
+        <h2 class="white" style="padding: 15px;">Performance Fiberglass</h2>
+        <p>Website created for industrial business using Wix platform.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="examples-container section mobile">
+    <div class="row-img" style="">
+      <div class="column-img"  data-aos="fade-right" data-aos-duration="3000">
+        <a href="https://socitm.net/improve/"><img src="improvedesk.jpg"></img></a>
+      </div>
+      <div class="column-img">
+        <h2 class="white" style="padding:15px;">Socitm Improve</h2>
+        <p>A new website creation while working for Socitm using HTML, CSS, JavaScript and jQuery.</p>
+      </div>
+      <div class="column-img"  data-aos="fade-left" data-aos-duration="3000">
+        <a href="https://bryn-weed.github.io/grid/"><img src="designdesk.jpg"></img></a>
+      </div>
+      <div class="column-img">
+        <h2 class="white" style="padding:15px">D E S I G N</h2>
+        <p>A personal project showcasing some design techniques and new CSS functionality.</p>
+      </div>
+      <div class="column-img"  data-aos="fade-right" data-aos-duration="3000">
+        <a href="http://canine-adventures.co.uk/"><img src="ca.jpg"></img></a>
+      </div>
+      <div class="column-img">
+        <h2 class="white" style="padding:15px;">Canine Adventures</h2>
+        <p>Commercial website and web application using HTML, CSS, JavaScript, jQuery, Ajax, PHP, and the Barclaycard payment API.</p>
+      </div>
+      <div class="column-img" data-aos="fade-left" data-aos-duration="3000">
+        <a href="https://bryn-weed.github.io/wv/"><img src="wv.jpg"></img></a>
+      </div>
+      <div class="column-img">
+        <h2 class="white" style="padding: 15px;">Wild & Wonderful WV</h2>
+        <p>Tourism guide for West Virginia including SVG work for custom page break designs.</p>
+      </div>
+      <div class="column-img"  data-aos="fade-right" data-aos-duration="3000">
+        <a href="https://www.performancefiberglassllc.com/"><img src="pf.jpg"></img></a>
+      </div>
+      <div class="column-img">
+        <h2 class="white" style="padding: 15px;">Performance Fiberglass</h2>
+        <p>Website created for industrial business using Wix platform.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-container section" id="contact">
+    <h1 style="font-size: 3.5rem; display: block; margin-bottom: 55px;">Let's get started.</h1>
+    <div class="left-panel half">
+      <p style="font-size: 1.3em; color: #5D5D5D">My approach and work hours are very flexible, get in touch if you have a project in mind, or any questions.
+      </p>
+      <a style="text-decoration: none; font-size: 1.8rem; font-weight: bold; margin-right: 35px;" class="blue" href="mailto:brynweed@gmail.com">brynweed@gmail.com</a>
+      <a style="text-decoration: none; font-size: 1.8rem; font-weight: bold;" class="blue" href="https://www.linkedin.com/in/brynweed/">linkedin.com/in/brynweed/</a>
     </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  </div>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
 
-  </body>
-
+</body>
+<script>
+AOS.init();
+</script>
 </html>
