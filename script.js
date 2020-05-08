@@ -4,11 +4,12 @@ window.onload = function () {
 
   button.onclick = function() {
       var div = document.getElementById('mobile-overlay');
-      if (div.style.display !== 'none') {
-          div.style.display = 'none';
+      if (div.style.width !== '0%') {
+          div.style.width = '0%';
+          div.style.paddingLeft = '0px';
       }
       else {
-          div.style.display = 'block';
+          div.style.width = '100%';
       }
   }
 
@@ -17,25 +18,54 @@ window.onload = function () {
   button.onclick = function() {
     var div = document.getElementById('mobile-overlay');
     var ul = document.getElementById('mobile-menu-ul');
-    if (div.style.display == 'none') {
-        div.style.display = 'block';
+    if (div.style.width !== '100%') {
+        div.style.width = '100%';
+        div.style.paddingLeft = '15px';
     }
     else {
-        div.style.display = 'none';
+        div.style.width = '0%';
     }
   }
 
-  var link = document.getElementById('mobile-nav');
+  var link = document.getElementById('link1');
 
   link.onclick = function() {
     var menu = document.getElementById('mobile-overlay');
-    if (menu.style.display !== 'none'){
-      menu.style.display = 'none';
+    if (menu.style.width !== '0%'){
+      menu.style.width = '0%';
+      menu.style.padding = '0%'
     }
     else {
-      menu.style.display = 'block';
+      menu.style.width = '100%';
     }
   }
+
+  var link = document.getElementById('link2');
+
+  link.onclick = function() {
+    var menu = document.getElementById('mobile-overlay');
+    if (menu.style.width !== '0%'){
+      menu.style.width = '0%';
+      menu.style.padding = '0%'
+    }
+    else {
+      menu.style.width = '100%';
+    }
+  }
+
+
+    var link = document.getElementById('link3');
+
+    link.onclick = function() {
+      var menu = document.getElementById('mobile-overlay');
+      if (menu.style.width !== '0%'){
+        menu.style.width = '0%';
+        menu.style.padding = '0%'
+      }
+      else {
+        menu.style.width = '100%';
+      }
+    }
 
 
 }

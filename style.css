@@ -75,8 +75,9 @@ margin: 0;
   width: 100%;
   height: 100%;
   z-index: 999;
-  padding-right: 15px;
-  padding-left: 15px;
+  width: 0px;
+  overflow:hidden;
+  transition: .3s;
 }
 
 .mobile-menu-header {
@@ -87,7 +88,7 @@ margin: 0;
 .mobile-menu-nav {
   padding: 0;
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   margin: 0;
   font-size: 2rem;
 }
@@ -229,6 +230,7 @@ img {
     color: #969696;
     line-height: 1.6em;
     overflow: auto;
+
 }
 
 .contact-container{
@@ -271,6 +273,30 @@ img {
 
 .mobile {display: none;}
 
+.mobile-vis{display: none;}
+
+@media (min-width: 768px) and (max-width: 1567px){
+  .column{
+    margin-right: 40px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1239px){
+ .left-panel{
+   width: 95%;
+ }
+ .right-panel{ float: left;
+ width: 95%;}
+
+
+.right-panel .column{
+  width: 40%;
+  float: left;
+  padding-left: 0;
+}
+}
+
 
 @media (min-width: 768px){
   .md-none {
@@ -293,22 +319,27 @@ img {
   .img-container{
     display: none;
   }
+  .intro{
+    width: 80vw;
+    padding-left: 35px;
+  }
   .intro h1{
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .left-panel h1{
     font-size: 2rem !important;
   }
   .column{
-    width: 80%;
+    width: 95%;
     padding-bottom: 25px;
+    margin-right: 0px;
   }
   .work-container h1{
     font-size: 2rem;
     line-height: 3rem;
   }
   .half{
-    width: 60vw;
+    width: 80vw;
   }
   .row-img{flex-direction: column;
   }
@@ -341,10 +372,12 @@ img {
 
   .section{
     padding: 25px;
+    padding-bottom: 55px;
   }
 
   .right-panel{
     float: left !important;
+    width: 80vw;
   }
 
   .column{
@@ -358,4 +391,6 @@ img {
   .service-container{
     padding-bottom: 65px;
   }
+
+  .mobile-vis{display: inline-block;}
 }
