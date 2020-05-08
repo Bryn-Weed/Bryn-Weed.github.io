@@ -321,6 +321,11 @@ img {
     width: 100%;
   }
 
+  .column-img p{
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+  }
+
   .desktop{
     display: none;
   }
@@ -332,5 +337,25 @@ img {
   .mobile-menu a{
     text-decoration: none;
     color: white;
+  }
+
+  .section{
+    padding: 25px;
+  }
+
+  .right-panel{
+    float: left !important;
+  }
+
+  .column{
+    padding-left: 0px;
+  }
+
+  .column h2{
+    line-height: 2rem;
+  }
+
+  .service-container{
+    padding-bottom: 65px;
   }
 }
